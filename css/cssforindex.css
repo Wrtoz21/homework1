@@ -1,0 +1,100 @@
+main{
+    height:1200px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    
+    height: 1000px;
+    flex-direction: row;
+}
+.SetPage{
+
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+   align-items: center;
+   position: absolute;
+   margin: 10px;
+   
+   
+   
+}
+.NavBar{
+    display: flex;
+   
+}
+.nav1{
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid blue; 
+    border-radius: 10px;
+}
+.BoxforPics{
+    display: flex;
+    margin:20px;
+    justify-content:space-around;
+    
+    
+}
+.Pics{
+    border: 2px solid black;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+
+.Name{
+    font-size: 2em;
+    text-align:center ;
+    margin-bottom: -10px;
+    margin-left:-100px;
+}
+.Surname{
+    font-size: 2em;
+    text-align: center;
+    margin-top: -8px;
+    margin-right:-100px;
+    
+}
+
+.Intro{
+    text-align: center;
+    font-size: 1.7em;
+}
+.Intro{
+    
+    font-size: 1.7em;
+}
+
+.ExplainMySelft{
+  display: flex;
+   
+    flex-direction: column;
+    width:300px;
+}
+.BoxP{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.BoxP1{
+    border: 1px solid black;
+    width:300px;
+    margin:20px;
+    
+}
+.BoxP2{
+    border: 1px solid black;
+    width:300px;
+    margin:20px;
+}
+.font1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+   
+}
